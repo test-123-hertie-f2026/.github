@@ -1,40 +1,22 @@
 # TEST 123 — Fall 2026
 
-This is the organisation for **TEST 123 — Fall 2026**.
+**TEST 123 — Fall 2026** — managed by the Hertie Data Science Lab.
+_This page is auto-generated; edits will be overwritten on the next refresh._
 
-## About
+## Repositories
 
-All materials and student submissions for the course are hosted here. Course content
-is managed by the Hertie Data Science Lab and instructors.
+| Repo | Visibility | Description |
+| --- | --- | --- |
+| [classroom-config](https://github.com/TEST-HERTIE-COHORT-f2026/classroom-config) | private | PRIVATE cohort config — roster (students.csv). No PII leaves here. |
+| [materials](https://github.com/TEST-HERTIE-COHORT-f2026/materials) | private | Released course materials (enrolled students only) |
+| [welcome](https://github.com/TEST-HERTIE-COHORT-f2026/welcome) | public | Course front door — open a Join issue to enrol |
 
-## Structure
+## Faculty actions
 
-- **`content-f{YYYY}` repos** — course materials (lectures, labs, readings)
-- **`assignment-N-f{YYYY}` repos** — assignment templates
-- **`f{YYYY}-*.github.io`** — course website
-- **Satellite orgs** (e.g. `hertie-dl-f2025`) — student submission repos
-
-## Teams
-
-- **`instructors-f{YYYY}`** — instructors and TAs (push access to materials)
-- **`students-f{YYYY}`** (satellite) — enrolled students (read content, push submissions)
-- **`auditors-f{YYYY}`** (satellite) — auditors (read-only)
-- **`course-admin`** — DSL administrators
-
-## Workflows
-
-Faculty run these from the [Actions tab](https://github.com/test-123-hertie-f2026/actions):
-- **`provision-assignment`** — one private repo per student from a master template
-- **`release-materials`** — drip course materials into the cohort
-- **`enroll-student`** — grant org + students-team access
-
-Leave the org field blank to target this org.
-
-## Resources
-
-- [Teaching & Course Setup](https://github.com/hertie-data-science-lab/dsl-teaching-course-setup) — workflows + docs
-- [Course Website Template](https://github.com/hertie-data-science-lab/course-website-template)
+- **Release materials** / **Release assignment** — run from inside a content or
+  assignment-template repo (its own Actions tab; the repo is the source).
+- **Enroll student** / **Equip repo** / **Refresh actions** — in the
+  [.github repo's Actions tab](https://github.com/TEST-HERTIE-COHORT-f2026/.github/actions).
 
 ---
-
-Need help? Reach out to the [Hertie DSL team](https://github.com/hertie-data-science-lab).
+Maintained by the [Hertie Data Science Lab](https://github.com/hertie-data-science-lab).
